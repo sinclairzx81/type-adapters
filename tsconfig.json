@@ -18,8 +18,9 @@
       "@type-adapters/yrel": ["./libs/type-adapters/yrel/index.ts"],
       "@type-adapters/yup": ["./libs/type-adapters/yup/index.ts"],
       "@type-adapters/zod": ["./libs/type-adapters/zod/index.ts"],
-      // reference framework
-      "@framework/rpc": ["./libs/framework/index.ts"]
+      // reference
+      "@trpc/client": ["./libs/trpc/client.ts"],
+      "@trpc/server": ["./libs/trpc/server.ts"]
     }
   }
 }
