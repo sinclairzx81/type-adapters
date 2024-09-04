@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "paths": {
+      // packages under the @type-adapters/* namespace
+      "@type-adapters/adapter": ["./libs/type-adapters/adapter/index.ts"],
+      "@type-adapters/default": ["./libs/type-adapters/default/index.ts"],
+      "@type-adapters/arktype": ["./libs/type-adapters/arktype/index.ts"],
+      "@type-adapters/effect": ["./libs/type-adapters/effect/index.ts"],
+      "@type-adapters/io-ts": ["./libs/type-adapters/io-ts/index.ts"],
+      "@type-adapters/json-schema-to-ts": ["./libs/type-adapters/json-schema-to-ts/index.ts"],
+      "@type-adapters/scale-codec": ["./libs/type-adapters/scale-codec/index.ts"],
+      "@type-adapters/superstruct": ["./libs/type-adapters/superstruct/index.ts"],
+      "@type-adapters/valibot": ["./libs/type-adapters/valibot/index.ts"],
+      "@type-adapters/typebox": ["./libs/type-adapters/typebox/index.ts"],
+      "@type-adapters/yrel": ["./libs/type-adapters/yrel/index.ts"],
+      "@type-adapters/yup": ["./libs/type-adapters/yup/index.ts"],
+      "@type-adapters/zod": ["./libs/type-adapters/zod/index.ts"],
+      // reference framework
+      "@framework/rpc": ["./libs/framework/index.ts"]
+    }
+  }
+}

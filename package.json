@@ -1,0 +1,25 @@
+{
+  "name": "type-adapters",
+  "license": "MIT",
+  "scripts": {
+    "clean": "hammer task clean",
+    "start": "hammer task start"
+  },
+  "dependencies": {
+    "@effect/schema": "^0.72.1",
+    "@sinclair/typebox": "^0.33.9",
+    "ajv": "^8.17.1",
+    "arktype": "^2.0.0-beta.5",
+    "io-ts": "^2.2.21",
+    "json-schema-to-ts": "^3.1.1",
+    "scale-codec": "^0.13.0",
+    "superstruct": "^2.0.2",
+    "valibot": "^0.41.0",
+    "yrel": "^2.2.3",
+    "yup": "^1.4.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@sinclair/hammer": "^0.18.0"
+  }
+}
